@@ -1,0 +1,109 @@
+.footer{
+  margin-top: 100px;
+  background: $dark;
+  border: none;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  padding: 50px 60px;
+
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo{
+      max-width: 180px;
+    }
+
+    ul{
+      display: flex;
+      list-style: none;
+      gap: 40px;
+
+      li a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+      }
+    }
+
+    &-ico{
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  &__mid{
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &1 h3{
+      width: fit-content;
+      font-weight: 500;
+      font-size: 20px;
+      padding: 0 7px;
+      background: $green;
+      border: none;
+      border-radius: 7px;
+      margin-bottom: 27px;
+    }
+
+    &1 p{
+      font-weight: 400;
+      font-size: 18px;
+      color: white;
+      margin-bottom: 20px;
+      max-width: 332px;
+    }
+    
+    &2{
+      background: #292A32;
+      border-radius: 14px;
+      padding: 58px 40px;
+      align-items: center;
+
+      form input{
+        background: $dark;
+        padding: 22px 36px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 14px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-right: 20px;
+      }
+
+      form button{
+        background: $green;
+        border: none;
+        border-radius: 14px;
+        padding: 20px 36px;
+        font-weight: 400;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__bot{
+    margin-top: 50px;
+
+    hr{
+      color:white;
+    }
+    &-text{
+      display: flex;
+      gap: 40px;
+
+      p{
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 18px;
+        color:white;
+      }
+    }
+  }
+}

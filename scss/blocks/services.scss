@@ -1,0 +1,145 @@
+.services{
+
+  &-title{
+    display: flex;
+    margin-top: 140px;
+    gap: 40px;
+  }
+
+  &-title h2{
+    font-weight: 500;
+    font-size: 40px;
+    padding: 0 7px;
+    background: $green;
+    border: none;
+    border-radius: 14px;
+  }
+
+  &-title p{
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 580px;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 80px;
+
+    &-item1{
+      display: block;
+      border: 1px solid $black;
+      background: $grey;
+      border-radius: 50px;
+      padding: 50px;
+      box-shadow: 0 5px 0 0 $dark;
+
+    }
+    &-item1 h2 {
+      width: fit-content;
+      font-weight: 500;
+      font-size: 30px;
+      padding: 0 7px;
+      background: $green;
+      border: none;
+      border-radius: 14px;
+    }
+    &-item1 a{
+      display: flex;
+      margin-top: 94px;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+    }
+
+    &-item1 a p{
+      font-weight: 400;
+      font-size: 20px;
+    }
+
+    &-item1 a img{
+      background: $black;
+      border: none;
+      border-radius: 50px;
+      padding: 10px;
+    }
+
+    &-item2{
+      display: block;
+      border: 1px solid $black;
+      background: $green;
+      border-radius: 50px;
+      padding: 50px;
+      box-shadow: 0 5px 0 0 $dark;
+
+    }
+    &-item2 h2 {
+      width: fit-content;
+      font-weight: 500;
+      font-size: 30px;
+      padding: 0 7px;
+      background: white;
+      border: none;
+      border-radius: 14px;
+    }
+    &-item2 a{
+      display: flex;
+      margin-top: 94px;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+    }
+
+    &-item2 a p{
+      font-weight: 400;
+      font-size: 20px;
+    }
+
+    &-item2 a img{
+      background: $black;
+      border: none;
+      border-radius: 50px;
+      padding: 10px;
+    }
+
+    &-item3{
+      display: block;
+      border: 1px solid $black;
+      background: $dark;
+      border-radius: 50px;
+      padding: 50px;
+      box-shadow: 0 5px 0 0 $dark;
+
+    }
+    &-item3 h2 {
+      width: fit-content;
+      font-weight: 500;
+      font-size: 30px;
+      padding: 0 7px;
+      background: white;
+      border: none;
+      border-radius: 14px;
+    }
+    &-item3 a{
+      display: flex;
+      margin-top: 94px;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+    }
+
+    &-item3 a p{
+      font-weight: 400;
+      font-size: 20px;
+      color: white;
+    }
+
+    &-item3 a img{
+      background: white;
+      border: none;
+      border-radius: 50px;
+      padding: 10px;
+    }
+  }
+}

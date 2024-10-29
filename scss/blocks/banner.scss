@@ -1,0 +1,46 @@
+.banner{
+  display: flex;
+  margin-top: 115px;
+  justify-content: space-between;
+  background: $grey;
+  border: none;
+  border-radius: 60px;
+  height: 347px;
+
+  &-title{
+    margin-left: 60px;
+  }
+  &-title h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 26px;
+  }
+
+  &-title p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 500px;
+    margin-bottom: 47px;
+  }
+
+  &-title a{
+    background: $black;
+    padding: 20px 35px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+  }
+
+  &-img{
+    margin-right: 60px;
+    position: absolute;
+    width: 494px;
+    height: 394px;
+    top: 2213px;
+    left: 1078px;
+  }
+}
